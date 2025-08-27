@@ -6,7 +6,7 @@ export default function ThemeBtn() {
   return (
   <div className="w-screen min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
       {/* Navbar */}
-      <header className="sticky top-0 z-50 bg-white dark:bg-gray-800 shadow-md">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-800 shadow-md">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-indigo-600">ResumeBuilder</h1>
           <nav className="space-x-6">
